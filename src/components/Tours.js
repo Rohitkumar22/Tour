@@ -43,7 +43,7 @@ function Tours() {
 
           <article
             onClick={(e) => {
-              console.log(process.env.abc);
+              console.log(process.env?.REACT_APP_abc);
             }}
             className="tour-card"
           >
