@@ -41,7 +41,12 @@ function Tours() {
             </div>
           </article>
 
-          <article className="tour-card">
+          <article
+            onClick={(e) => {
+              console.log(process.env.abc);
+            }}
+            className="tour-card"
+          >
             <div className="tour-img-container">
               <img src={tour2} className="tour-img" alt="" />
               <p className="tour-date">october 1th, 2020</p>
