@@ -8,7 +8,7 @@ function Tours() {
   const data = { title: "featured", subtitle: "tours" };
   return (
     <>
-      testingbranch changes for firt time
+      {/* testingbranch changes for firt time testing branch chages for 2nd time */}
       <section className="section" id="tours">
         <div className="section-title">
           <Title {...data} />
