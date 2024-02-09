@@ -8,6 +8,7 @@ function Tours() {
   const data = { title: "featured", subtitle: "tours" };
   return (
     <>
+      testingbranch changes for firt time
       <section className="section" id="tours">
         <div className="section-title">
           <Title {...data} />

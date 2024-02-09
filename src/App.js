@@ -10,7 +10,6 @@ import Tours from "./components/Tours";
 function App() {
   return (
     <>
-      <Lokesh />
       <Navbar />
       <Hero />
       <About />
